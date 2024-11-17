@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/online-wedding.github.io/static/css/main.e06b1c28.css",
+    "main.js": "/online-wedding.github.io/static/js/main.0acb21fd.js",
+    "static/js/453.3b2cff17.chunk.js": "/online-wedding.github.io/static/js/453.3b2cff17.chunk.js",
+    "index.html": "/online-wedding.github.io/index.html",
+    "main.e06b1c28.css.map": "/online-wedding.github.io/static/css/main.e06b1c28.css.map",
+    "main.0acb21fd.js.map": "/online-wedding.github.io/static/js/main.0acb21fd.js.map",
+    "453.3b2cff17.chunk.js.map": "/online-wedding.github.io/static/js/453.3b2cff17.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e06b1c28.css",
+    "static/js/main.0acb21fd.js"
+  ]
+}
