@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Container from '@mui/material/Container';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container maxWidth="md" style={{ display: 'flex', justifyContent: 'center' }}>
+      <div>
+        <img
+          src='./img/線上家宴邀請函.png'
+          alt='線上家宴邀請函'
+          style={{ width: '100%', maxWidth: '25rem' }}
+        />
+        <div>
+          <p>{'大家好，我是曉彤/董曉彤/阿董/Lisa。餅乾雖然是我媽媽叫我訂的，但因為想和你分享我的近況和喜悅，所以送你一盒。'}</p>
+          <p>{'我在去年(2023)7月與林伯禹登記結婚，並在家長的催促與協助下(?)，於今年(2024)11月16號舉辦家宴，代替我們一直懶得舉辦的婚禮。'}</p>
+          <p>{'因為是家長主辦，我沒有被分到很多賓客座位，所以很抱歉沒能邀請你來現場參與。'}</p>
+          <p>{'這邊我寫了一個很簡單的網頁，邀請你線上體驗我們為當天準備的照片、音樂，和小遊戲。'}</p>
+          <p>{'這個網頁跟餅乾一樣有有效期限，請趁早享用，謝謝 <3'}</p>
+        </div>
+      </div>
+    </Container>
   );
 }
 
 export default App;
+
+// note in cookie
+// 大家好，我是曉彤/董曉彤/阿董/Lisa。餅乾雖然是我媽媽叫我訂的，但因為想和你分享我的近況和喜悅，所以送你一盒。
+// 我在去年(2023)7月與林伯禹登記結婚，並在家長的催促與協助下(?)，於今年(2024)11月16號舉辦家宴，代替我們一直懶得舉辦的婚禮。
+// 因為是家長主辦，我沒有被分到很多賓客座位，所以很抱歉沒能邀請你來現場參與。
+// 這邊我寫了一個很簡單的網頁，邀請你線上體驗我們為當天準備的照片、音樂，和小遊戲。
+// 這個網頁跟餅乾一樣有有效期限，請趁早享用，謝謝 <3
